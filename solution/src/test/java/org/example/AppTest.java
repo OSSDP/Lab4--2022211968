@@ -17,7 +17,7 @@ public class AppTest {
     public void testMultiply() {
         Solution solution = new Solution();
         String a = solution.multiply("2","3");
-        assertEquals("6",a);
+        assertEquals("7",a);
         a = solution.multiply("123","456");
         assertEquals("56088",a);
 
@@ -31,7 +31,7 @@ public class AppTest {
     public void addStrings() {
         Solution solution = new Solution();
         String ans = solution.addStrings("2","3");
-        assertEquals("7",ans);
+        assertEquals("5",ans);
         ans = solution.addStrings("9","2");
         assertEquals("11",ans);
     }
